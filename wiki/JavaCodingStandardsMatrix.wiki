@@ -1,0 +1,8 @@
+#summary A Matrix of Java Coding Standards
+
+= Java Coding Standards Matrix =
+
+
+|| *Category* || *Coding Standard/Convention* || *Sun* || *Ambler* || *Discussion* ||
+|| CodeOrganisation|| FileLength ||*x* ||  || see JavaCodingStandardDiscussion ||
+|| CodeOrganisation|| - ||*x* ||  || ||
