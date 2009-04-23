@@ -3,7 +3,8 @@
 = Table of Contents =
 
  * [Introduction Introduction]
-    * [SubPage Sub page 1]
+    * [JavaCodingStandardsMatrix Java Coding Standards Matrix]
+    * [JavaCodingStandardDiscussion Java Coding Standards Discussion]
  * [CodeOrganisation Code Oraganisation]
     * [JavaProject Java Project]
  * [Other Other]
