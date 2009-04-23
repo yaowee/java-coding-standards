@@ -1,0 +1,18 @@
+#summary Introduction to the java-coding-standards project.
+
+= Introduction =
+
+The purpose of this document is to examine Java coding standards and conventions used throughout industry and to indicate the standards we adopt and practice.
+
+== Why Have Code Conventions ==
+
+ Program comprehension is very important in relation to software development. 
+
+ Having code that is easy to comprehend greatly helps with development and maintenance of the software and having good coding standards can help achieve this.
+
+== Other Java Coding Standards ==
+ 
+ * <a href="http://java.sun.com/docs/codeconv/">Sun Java Conventions</a>
+ * <a href="http://www.ambysoft.com/essays/javaCodingStandards.html">Scott Ambler/AmbySoft</a>
+
+ see the JavaCodingStandardsMatrix
