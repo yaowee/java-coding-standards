@@ -1,0 +1,5 @@
+#summary Contains more detailed content on standards highlight in the JavaCodingStandardsMatrix page.
+
+<wiki:toc max_depth="5" />
+
+= Java Coding Standards =
