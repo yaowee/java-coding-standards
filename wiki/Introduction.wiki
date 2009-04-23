@@ -7,6 +7,8 @@
 
 The purpose of this document is to examine Java coding standards and conventions used throughout industry and to indicate the standards we adopt and practice.
 
+Alot of coding standards and conventions come from the development method/style that the developers use. Overtime some of these conventions and standards can become obsolete in favour of other standards.
+
 == Why Have Code Conventions ==
 
  Program comprehension is very important in relation to software development. 
