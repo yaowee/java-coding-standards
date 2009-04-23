@@ -1,4 +1,5 @@
 #summary A Matrix of Java Coding Standards
+#sidebar TableOfContents
 
 = Java Coding Standards Matrix =
 
