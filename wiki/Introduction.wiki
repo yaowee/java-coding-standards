@@ -1,4 +1,7 @@
 #summary Introduction to the java-coding-standards project.
+#sidebar TableOfContents
+
+<wiki:toc max_depth="5" />
 
 = Introduction =
 
