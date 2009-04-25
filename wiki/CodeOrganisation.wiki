@@ -1,0 +1,6 @@
+#summary summary of coding standards to do with organinsing your source code
+#sidebar TableOfContents
+
+= Code Organisation =
+== Project Naming ==
+== Project Structure ==
