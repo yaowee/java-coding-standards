@@ -5,6 +5,6 @@
  * [Introduction Introduction]
   * [JavaCodingStandardsMatrix Matrix]
   * [JavaCodingStandardDiscussion Discussion]
- * [CodeOrganisation Code Oraganisation]
+ * [CodeOrganisation Code Organisation]
   * [JavaProject Java Project]
  * [Other Other]
