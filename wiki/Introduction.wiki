@@ -7,13 +7,23 @@
 
 The purpose of this document is to examine Java coding standards and conventions used throughout industry and to indicate the standards we adopt and practice.
 
-Alot of coding standards and conventions come from the development method/style that the developers use. Overtime some of these conventions and standards can become obsolete in favour of other standards.
+Coding standards have existed in software development for quiet a while and they can cause division. There are those that advocate the use of standards and those who fight against. Both camps have valid arguments which basically stem from how the practise of 'coding standards' is implemented by the group/organisation advocating their use.
+
+XP adovcates evolving your coding standards and involving the whole team. Within this coding standard document, we take this evolving approach and will try to communicate as best we can the reasons for adopting a given standard.
 
 == Why Have Code Conventions ==
 
- Program comprehension is very important in relation to software development. 
+The code is very important to us as it is it that is turned into 'working software'.
 
- Having code that is easy to comprehend greatly helps with development and maintenance of the software and having good coding standards can help achieve this.
+ When it comes to software we value:
+   * Working software: the software meets the customer expectations in terms of functionality and quality
+   * Maintainable software: its easy to coprehend and make changes to the software
+
+ Thus we value and want to encourage code with the following properties:
+   * Readable/Understandable
+   * Simple as possible
+
+Because of this we believe that practising code standards and conventions can help towards our ultimate goal of working software.
 
 == Other Java Coding Standards ==
  
