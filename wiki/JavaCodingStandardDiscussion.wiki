@@ -9,37 +9,14 @@ One of the first things we need to think about when starting to write our softwa
 
 == Project ==
 
-We use the notion of a 'project' to store all the source responsible for the creation of the working software artifact.
-
-We prefer to align projects with a deliverable artifact. That is if the piece of software is delivered as a jar file, then all the source code for that deliverable would exist in the one project. If the deliverable was two jar files, then it would make sense that the code was structure in two projects, each project responsible for storing and create its own jar file.
-
-When considering how to organise our project struture we take into account the following principles outlined in http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf.
-
-   * The Release Reuse Equivalency Principle (REP): The granule of reuse is the granule of release.
-   * The Common Closure Principle (CCP): Classes that change together, belong together.
-   * The Common Reuse Principle (CRP):  Classes that aren’t reused together should not be grouped together.
-
-If there are specific parts of our system that we wish to be reusable we should structure the source into their own projects which are responsible for creating the deliverable (.jar, .war or .ear file) from the source.
-
-
-=== Project Naming ===
-
-The name of a 'project' or module should reveal what the source code contain withit is responsible for.
-
-If you structure your source underneath one project, you may choose the name of the application/system it is.
-
-if you have strutured the source code into several modules or project you may choose the name them after architectural components of the system, ui, service, domain etc
-
-
-=== Project Naming Convention ===
-
-We prefer to name our projects/modules with camel case and with capital letters for each word e.g Domain, or ExampleProjectName
-
-At time we append on War or Ear to signify that this project is responsible for specifically storing WAR or EAR source code e.g ExampleApplicationWar, ExampleApplicationEar
+We use the notion of a 'project' or 'module' to store all the source responsible for the creation of the working software artifact.
 
 === Project Structure ===
 
-for project structure we prefer the following structure
+Sun provide <a href="http://java.sun.com/blueprints/code/projectconventions.html">guidelines</a> for the project layout when building end-to-end java applications.
+
+Maven advocates a <a href="http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html">project directory structure</a>
+
 {{{
 +[ProjectName]
 |
@@ -53,10 +30,35 @@ for project structure we prefer the following structure
          |
          ----+ java
 ----+ lib
-----+ build-classes
+----+ target
 }}}
 
    * All source code goes under src/main. The Java source specifically goes under src/main/java
    * All test code goes under src/test. The Java test code specifically goes under src/test/java
    * All dependencies jars goes under the lib folder.
-   * All compiled files go under the build-class folders (with a split between test and production code as above).
+   * All compiled files go under the target folders (with a split between test and production code as above).
+
+=== Guiding Principles ===
+
+When considering how to organise our project struture we take into account the following principles outlined in http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf.
+
+   * The Release Reuse Equivalency Principle (REP): The granule of reuse is the granule of release.
+   * The Common Closure Principle (CCP): Classes that change together, belong together.
+   * The Common Reuse Principle (CRP):  Classes that aren’t reused together should not be grouped together.
+
+We prefer to align projects with a deliverable artifact. That is if the piece of software is delivered as a jar file, then all the source code for that deliverable would exist in the one project. If the deliverable was two jar files, then it would make sense that the code was structure in two projects, each project responsible for storing and create its own jar file.
+
+If there are specific parts of our system that we wish to be reusable we should structure the source into their own projects which are responsible for creating the deliverable (.jar, .war or .ear file) from the source.
+
+
+=== Project Naming ===
+
+The name of a 'project' or module should reveal what the source code contain within it is responsible for.
+
+If you structure your source underneath one project, you may choose the name of the application/system it is.
+
+We prefer to name our projects/modules with camel case and with capital letters for each word e.g Domain, or ExampleProjectName
+
+At times we append on War or Ear to signify that this project is responsible for specifically storing WAR or EAR source code e.g ExampleApplicationWar, ExampleApplicationEar
+
+If you have structured the source code into several modules or project you may choose to name them after architectural components of the system, ui, service, domain etc
