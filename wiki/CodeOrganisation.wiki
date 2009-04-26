@@ -33,4 +33,25 @@ e.g. !ExampleModuleName, !ExampleWebAppWar, !ExampleWebAppEar
 
 We adopt the following module struture for organising where our source files go:
 
+{{{
++[ProjectName]
+|
+----+ src
+     |
+     ----+ main 
+     |   |
+     |   ----+ java 
+     |
+     |----+ test
+         |
+         ----+ java
+----+ lib
+----+ target
+     |
+     + classes/main/java
+     + classes/test/java
+     |
+     + reports
+}}}
+
 == Packages ==
