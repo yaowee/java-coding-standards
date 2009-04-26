@@ -25,10 +25,8 @@ The name of a module should describe its purpose. A Single module approach may c
 
 We name our modules using camel case with the first letter of the module as a capital.
 
-e.g. ExampleProjectName
+e.g. *ExampleProjectName*
 
 == Module Structure ==
 
 We adopt the following module struture for organising where our source files go:
-
-
