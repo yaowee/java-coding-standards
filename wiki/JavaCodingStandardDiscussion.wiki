@@ -50,8 +50,7 @@ We prefer to align projects with a deliverable artifact. That is if the piece of
 
 If there are specific parts of our system that we wish to be reusable we should structure the source into their own projects which are responsible for creating the deliverable (.jar, .war or .ear file) from the source.
 
-
-=== Project Naming ===
+=== ModuleNaming ===
 
 The name of a 'project' or module should reveal what the source code contain within it is responsible for.
 
@@ -62,3 +61,9 @@ We prefer to name our projects/modules with camel case and with capital letters 
 At times we append on War or Ear to signify that this project is responsible for specifically storing WAR or EAR source code e.g ExampleApplicationWar, ExampleApplicationEar
 
 If you have structured the source code into several modules or project you may choose to name them after architectural components of the system, ui, service, domain etc
+
+== Packages ==
+
+A package provides a unique namespace for the types (Classes, Interfaces, Enums, Annotations) it contains.
+
+Packages are used to identify sub-systems of a software application. Types that are used together and change together that serve to implement a practicular behaviour are packaged together.
