@@ -2,5 +2,9 @@
 #sidebar TableOfContents
 
 = Code Organisation =
+
+== Project Organisation ==
+
 == Project Naming ==
+
 == Project Structure ==
