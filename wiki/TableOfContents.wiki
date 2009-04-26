@@ -6,5 +6,3 @@
   * [JavaCodingStandardsMatrix Matrix]
   * [JavaCodingStandardDiscussion Discussion]
  * [CodeOrganisation Code Organisation]
-  * [JavaProject Java Project]
- * [Other Other]
