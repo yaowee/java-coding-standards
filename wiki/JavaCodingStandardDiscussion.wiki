@@ -7,11 +7,11 @@
 
 One of the first things we need to think about when starting to write our software is how we organise the source files for development.
 
-== Project ==
+== Module ==
 
 We use the notion of a 'project' or 'module' to store all the source responsible for the creation of the working software artifact.
 
-=== Project Structure ===
+=== Module Structure ===
 
 Sun provide <a href="http://java.sun.com/blueprints/code/projectconventions.html">guidelines</a> for the project layout when building end-to-end java applications.
 
