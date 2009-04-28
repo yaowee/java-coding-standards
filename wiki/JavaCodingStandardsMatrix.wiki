@@ -5,7 +5,7 @@
 
 
 || *Category* || *Coding Standard/Convention* || *Sun* || *Ambler* || *Discussion* ||
-|| CodeOrganisation|| ProjectNaming ||*x* ||  || see JavaCodingStandardDiscussion ||
+|| CodeOrganisation|| Module ||*x* ||  || see JavaCodingStandardDiscussion ||
 || CodeOrganisation|| ProjectStructure ||*x* ||  || see JavaCodingStandardDiscussion ||
 || CodeOrganisation|| FileLength ||*x* ||  || see JavaCodingStandardDiscussion ||
 || CodeOrganisation|| - ||*x* ||  || ||
