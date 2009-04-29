@@ -25,10 +25,15 @@ The code is very important to us as it is it that is turned into 'working softwa
 
 Because of this we believe that practising code standards and conventions can help towards our ultimate goal of working software.
 
-== Other Java Coding Standards ==
+== Other Java Coding Standards and Language Guides ==
  
  * <a href="http://java.sun.com/docs/codeconv/">Sun Java Conventions (1999)</a>
  * <a href="http://www.ambysoft.com/essays/javaCodingStandards.html">Scott Ambler (2000)</a>
  * <a href="http://gee.cs.oswego.edu/dl/html/javaCodingStd.html">Doug Lea (2000)</a>
+ * <a href="http://java.sun.com/docs/books/effective/chapters.html">Effective Java Edition 1</a>
+    * <a href="http://wiki.glassfish.java.net/attach/JavaProgramming/ej.html">Online Companion</a>
+ * <a href="http://www.infoq.com/articles/bloch-effective-java-2e">Effective Java 2nd Edition</a>
+
+
 
  see the JavaCodingStandardsMatrix
