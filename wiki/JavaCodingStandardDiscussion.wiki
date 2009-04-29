@@ -50,7 +50,7 @@ We prefer to align projects with a deliverable artifact. That is if the piece of
 
 If there are specific parts of our system that we wish to be reusable we should structure the source into their own projects which are responsible for creating the deliverable (.jar, .war or .ear file) from the source.
 
-=== ModuleNaming ===
+=== Module Naming ===
 
 The name of a 'project' or module should reveal what the source code contain within it is responsible for.
 
