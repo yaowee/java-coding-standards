@@ -75,6 +75,13 @@ We prefer to name our projects/modules with camel case and with capital letters 
 
 At times we append on War or Ear to signify that this module is responsible for specifically storing WAR or EAR source code e.g ExampleApplicationWar, ExampleApplicationEar
 
+=== Standards ===
+
+ Modules that exhibit the desirable characteristics listed will help improve maintainability. Changes to code should not ripple throughout the code base and instead should be confined to the conceptual boundary of the module. As such we add the following to our java coding standards document
+
+   1 No cyclic dependencies between modules
+   1 fa
+
 == Packages ==
 
 A package provides a unique namespace for the types (Classes, Interfaces, Enums, Annotations) it contains.
