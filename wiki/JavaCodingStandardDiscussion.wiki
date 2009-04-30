@@ -77,10 +77,11 @@ At times we append on War or Ear to signify that this module is responsible for 
 
 === Standards ===
 
- Modules that exhibit the desirable characteristics listed will help improve maintainability. Changes to code should not ripple throughout the code base and instead should be confined to the conceptual boundary of the module. As such we add the following to our java coding standards document
+Modules that exhibit the desirable characteristics listed will help improve maintainability. Changes to code should not ripple throughout the code base and instead should be confined to the conceptual boundary of the module. As such we add the following to our java coding standards document
 
-   1 No cyclic dependencies between modules
-   1 fa
+   # No cyclic dependencies between modules
+   # High cohesion within each module
+   # Low coupling with other modules
 
 == Packages ==
 
