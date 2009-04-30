@@ -5,7 +5,7 @@
 
 = Code Organisation =
 
-One of the first things we need to think about when starting to write our software is how we organise the source files for development. The way we organise our code is extremely important and will ultimately effect our goals of attaining code reuse and maintainability.
+One of the first things we need to think about when starting to write our software is how we organise the source files for development. The way we organise our code is extremely important and will ultimately affect *our goals of attaining code reuse and maintainability*.
 
 Typically the use of software changes over time. It needs to be able to respond to changing specifications. This means that a code base needs to be able to evolve and most likely needs to be able to cope with many different developers reading and changing code over the course of its life time. 
 
