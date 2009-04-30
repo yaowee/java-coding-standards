@@ -32,8 +32,7 @@ Because of this we believe that practising code standards and conventions can he
  * <a href="http://gee.cs.oswego.edu/dl/html/javaCodingStd.html">Doug Lea (2000)</a>
  * <a href="http://java.sun.com/docs/books/effective/chapters.html">Effective Java Edition 1</a>
     * <a href="http://wiki.glassfish.java.net/attach/JavaProgramming/ej.html">Online Companion</a>
- * <a href="http://www.infoq.com/articles/bloch-effective-java-2e">Effective Java 2nd Edition</a>
-
-
+ * <a href="http://java.sun.com/docs/books/effective/">Effective Java 2nd Edition</a>
+    * <a href="http://www.infoq.com/articles/bloch-effective-java-2e">infoq review</a>
 
  see the JavaCodingStandardsMatrix
