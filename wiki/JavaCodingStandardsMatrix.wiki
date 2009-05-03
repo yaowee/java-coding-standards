@@ -4,8 +4,5 @@
 = Java Coding Standards Matrix =
 
 
-|| *Category* || *Coding Standard/Convention* || *Sun* || *Ambler* || *Discussion* ||
-|| CodeOrganisation|| Module ||*x* ||  || see JavaCodingStandardDiscussion ||
-|| CodeOrganisation|| ProjectStructure ||*x* ||  || see JavaCodingStandardDiscussion ||
-|| CodeOrganisation|| FileLength ||*x* ||  || see JavaCodingStandardDiscussion ||
-|| CodeOrganisation|| - ||*x* ||  || ||
+|| *Category* || *Section* || *Coding Standard/Convention* || *Discussion* || *Sources* ||
+|| CodeOrganisation|| Module || Conceptual module with distinct role || see JavaCodingStandardDiscussion || - ||
