@@ -88,3 +88,21 @@ Modules that exhibit the desirable characteristics listed will help improve main
 A package provides a unique namespace for the types (Classes, Interfaces, Enums, Annotations) it contains.
 
 Packages are used to identify sub-systems of a software application. Types that are used together and change together that serve to implement a practicular behaviour are packaged together.
+
+=== How do we choose a package? ==
+
+We use a package to organise our Java types within a praticular namespace. We typically organise the Java types that change together and are used together within their own packages.
+
+=== Desirable Characteristics ===
+
+A Package should:
+
+   * Be Highly Cohesion
+   * Have Low Coupling with other packages
+
+=== Guiding Principles ===
+
+When considering how to organise our project struture we take into account the following principles outlined in http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf.
+
+   * The Common Closure Principle (CCP): Classes that change together, are packaged together.
+   * The Common Reuse Principle (CRP):  Classes that aren’t reused together should not be packaged together.
