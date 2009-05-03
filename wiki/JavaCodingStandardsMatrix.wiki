@@ -7,4 +7,5 @@
 || *Category* || *Section* || *Coding Standard/Convention* || *Discussion* || *Sources* ||
 || CodeOrganisation|| Module || Conceptual module with distinct role || see JavaCodingStandardDiscussion || - ||
 || CodeOrganisation|| Module || No cyclic dependencies between modules || see JavaCodingStandardDiscussion || - ||
-|| CodeOrganisation|| Module || Module should have high have cohesion || see JavaCodingStandardDiscussion || Module has low coupling to other modules ||
+|| CodeOrganisation|| Module || Module should have high have cohesion || see JavaCodingStandardDiscussion || - ||
+|| CodeOrganisation|| Module || Module has low coupling to other modules || see JavaCodingStandardDiscussion || - ||
