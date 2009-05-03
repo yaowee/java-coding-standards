@@ -116,3 +116,5 @@ com.javacrafting.x
 }}}
 
 Packages that appear further down the naming hierarchy are often called *sub-packages* but there is no actual hierarchy enforced via the packaging language feature.
+
+The package name is singular and lowercase by industry convention.
