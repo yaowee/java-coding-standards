@@ -75,7 +75,7 @@ We prefer to name our projects/modules with camel case and with capital letters 
 
 At times we append on War or Ear to signify that this module is responsible for specifically storing WAR or EAR source code e.g ExampleApplicationWar, ExampleApplicationEar
 
-=== Standards ===
+=== Module Standards ===
 
 Modules that exhibit the desirable characteristics listed will help improve maintainability. Changes to code should not ripple throughout the code base and instead should be confined to the conceptual boundary of the module. As such we add the following to our java coding standards document
 
@@ -118,3 +118,13 @@ com.javacrafting.x
 Packages that appear further down the naming hierarchy are often called *sub-packages* but there is no actual hierarchy enforced via the packaging language feature.
 
 The package name is singular and lowercase by industry convention.
+
+=== Package Standards ===
+
+  # No cyclic dependencies between packages
+  # package has high cohesion
+  # package has low coupling
+  # package is completely abstract or in stable
+  # package name is unique, lowercase and singular starting with reverse top-level domain
+  # package should be documented with javadoc explaing rationale for package.
+  
