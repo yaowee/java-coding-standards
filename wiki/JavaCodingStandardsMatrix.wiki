@@ -10,10 +10,10 @@ see JavaCodingStandardDiscussion
 || CodeOrganisation|| Module || No cyclic dependencies between modules || - ||
 || CodeOrganisation|| Module || Module should have high have cohesion || - ||
 || CodeOrganisation|| Module || Module has low coupling to other modules || - ||
-|| CodeOrganisation|| Module || No cyclic dependencies between packages || - ||
-|| CodeOrganisation|| Module || Package should have high have cohesion || - ||
-|| CodeOrganisation|| Module || Package has low coupling to other packages || - ||
-|| CodeOrganisation|| Module || Package name is unique, singular and lowercase (reverse top-level domain || - ||
-|| CodeOrganisation|| Module || Document package rationale with javadoc || - ||
+|| CodeOrganisation|| Package || No cyclic dependencies between packages || - ||
+|| CodeOrganisation|| Package || Package should have high have cohesion || - ||
+|| CodeOrganisation|| Package || Package has low coupling to other packages || - ||
+|| CodeOrganisation|| Package || Package name is unique, singular and lowercase (reverse top-level domain || - ||
+|| CodeOrganisation|| Package || Document package rationale with javadoc || - ||
 
 see JavaCodingStandardDiscussion
