@@ -15,7 +15,7 @@ To support the evolving code base we discuss:
 
 == Module ==
 
-A *Module* is a conceptual term in Java. It is a collection of specific *packages* that colloborate together to fufill the responsibility(s) of a given module. Ideally each module will have a source code structure that mirrors the conceptual structure of the module. This creates a natural package naming system and makes navigation easier.
+A *Module* is a conceptual term in Java. It is a collection of specific *packages* that colloborate together to fufill the responsibility(s) of a given module. Ideally our module(s) will have a source code structure that mirrors the conceptual structure of the module. This creates a natural package naming system and makes navigation easier.
 
 === How do we choose modules? ===
 
@@ -67,7 +67,7 @@ Maven advocates a <a href="http://maven.apache.org/guides/introduction/introduct
 
 === Module Naming ===
 
-The name of a 'project' or module should reveal what the source code contain within it is responsible for.
+The name of a 'project' or module should reveal what the source code contained within it is responsible for.
 
 If you structure your source underneath one project, you may choose the name of the application/system it is.
 
@@ -124,7 +124,7 @@ The package name is singular and lowercase by industry convention.
   # No cyclic dependencies between packages
   # package has high cohesion
   # package has low coupling
-  # package is completely abstract or in stable
   # package name is unique, lowercase and singular starting with reverse top-level domain
   # package should be documented with javadoc explaing rationale for package.
+  # (package stability? depended on package stability?)
   
