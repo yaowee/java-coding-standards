@@ -3,9 +3,17 @@
 
 = Java Coding Standards Matrix =
 
+see JavaCodingStandardDiscussion
 
-|| *Category* || *Section* || *Coding Standard/Convention* || *Discussion* || *Sources* ||
-|| CodeOrganisation|| Module || Conceptual module with distinct role || see JavaCodingStandardDiscussion || - ||
-|| CodeOrganisation|| Module || No cyclic dependencies between modules || see JavaCodingStandardDiscussion || - ||
-|| CodeOrganisation|| Module || Module should have high have cohesion || see JavaCodingStandardDiscussion || - ||
-|| CodeOrganisation|| Module || Module has low coupling to other modules || see JavaCodingStandardDiscussion || - ||
+|| *Category* || *Section* || *Coding Standard/Convention* || *Sources* ||
+|| CodeOrganisation|| Module || Conceptual module with distinct role || - ||
+|| CodeOrganisation|| Module || No cyclic dependencies between modules || - ||
+|| CodeOrganisation|| Module || Module should have high have cohesion || - ||
+|| CodeOrganisation|| Module || Module has low coupling to other modules || - ||
+|| CodeOrganisation|| Module || No cyclic dependencies between packages || - ||
+|| CodeOrganisation|| Module || Package should have high have cohesion || - ||
+|| CodeOrganisation|| Module || Package has low coupling to other packages || - ||
+|| CodeOrganisation|| Module || Package name is unique, singular and lowercase (reverse top-level domain || - ||
+|| CodeOrganisation|| Module || Document package rationale with javadoc || - ||
+
+see JavaCodingStandardDiscussion
