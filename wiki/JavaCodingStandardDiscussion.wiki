@@ -132,7 +132,7 @@ The package name is singular and lowercase by industry convention.
 
 Files with the suffix *.java* hold the source code of our Java types. When these are compiled they are transformed into files that hold bytecode with the suffix *.class*. Typically these files are then archived in a *.jar* file.
 
-While smaller source files are easier to manage and view, we dont set any standard around file size like is mentioned in *Suns Java coding convention*, instead we should get this as a result of our standards around the we create our classes, interfaces, enums and annotations.
+While smaller source files are easier to manage and view, we dont set any standard around file size like is mentioned in *Suns Java coding convention*, instead we should get this as a result of our standards around the way we create our classes, interfaces, enums and annotations.
 
 We do agree with what is documented in Doug Leas coding standards that each type should exist in a seperate file and that files name should be named the same as the type that is described by the source code.
 
