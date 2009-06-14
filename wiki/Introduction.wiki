@@ -7,7 +7,7 @@
 
 The purpose of this document is to examine Java coding standards and conventions used throughout industry and to indicate the standards we adopt and practice.
 
-Coding standards have existed in software development for quiet a while and they can cause division. There are those that advocate the use of standards and those who fight against. Both camps have valid arguments which basically stem from how the practise of 'coding standards' is implemented by the group/organisation advocating their use.
+Coding standards have existed in software development from day one as an attempt to aid program comprehension.
 
 XP adovcates evolving your coding standards and involving the whole team. Within this coding standard document, we take this evolving approach and will try to communicate as best we can the reasons for adopting a given standard.
 
